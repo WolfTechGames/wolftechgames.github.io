@@ -203,12 +203,10 @@ em {
     vertical-align: top;
 }
 
-#upcoming-games img{
+#upcoming-games div{
 /*    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);*/
     padding: 10px 11px;
     background-color: hsl(36, 68%, 48%);
-    max-width: 726px;
-    max-height: 210px;
     margin-bottom: 0.8em;
 }
 
@@ -374,6 +372,11 @@ Tiny Screens
         margin: auto;
         border: none;
     }
+
+    #upcoming-games div{
+        padding: 2px 3px;
+        margin-bottom: 0.2em;
+    }
 }
 
 /****************
@@ -426,6 +429,11 @@ Small Screens
     #mc-embedded-subscribe-form{
         margin: auto;
         border: none;
+    }
+
+    #upcoming-games div{
+        padding: 5px 6px;
+        margin-bottom: 0.4em;
     }
 }
 
