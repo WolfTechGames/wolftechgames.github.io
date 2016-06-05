@@ -1,0 +1,359 @@
+/******************************
+**********GENERAL CSS**********
+******************************/
+
+/* general class for borderless elements*/
+.borderless {
+  padding: 0em;
+  margin: 0em;
+  border: 0em;
+}
+
+/*refers to the block the page's content is located on */
+.main-page{
+  margin-top: 0.75em;
+  margin-bottom: 2em;
+  padding-bottom: 0;
+  border: 0;
+}
+
+/* default settings for elements, */
+/* also contains background image */
+body {
+  background-color: #3E2940;
+  color: whitesmoke;
+  padding: 0;
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  position: relative;
+  cursor: default;
+}
+
+.justify{
+  text-align: justify;
+  margin-right: 0.8em;
+  margin-left: 0.8em;
+}
+
+/* header text */
+h1 {
+  color: #6CFF91;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 3em;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 0;
+  text-shadow: 0 1px 0 #25F559,
+               0 2px 0 #20D64E,
+               0 3px 0 #13C12A,
+               0 4px 0 #249A10,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+/*Sub Headers */
+h3 {
+  color: #6CFF91;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.75em;
+  font-weight: 900;
+  text-align: center
+}
+
+a {
+  color: #6CFF91;
+}
+
+a:hover {
+  color: #BDFFCD;
+  text-decoration: underline;
+}
+
+/******************************
+**********Specific CSS*********
+******************************/
+
+/* header bar, containing logo at top of page */
+#header {
+  background-color: #e5e5e5;
+  padding: auto auto auto auto;
+  -webkit-box-shadow: 0px 4px 7px 2px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 4px 7px 2px rgba(0,0,0,0.5);
+  box-shadow: 0px 4px 7px 2px rgba(0,0,0,0.5);
+  border-bottom: 5px solid #125800;
+}
+
+/* displays the logo */
+#logo{
+  display: block;
+  margin: auto auto auto auto;
+  width: 100%;
+  height: 100%;
+}
+
+/* the base navbar and background */
+#navbar{
+  background: #67FF6D;
+  -webkit-box-shadow: 0px 4px 7px 2px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 4px 7px 2px rgba(0,0,0,0.5);
+  box-shadow: 0px 4px 7px 2px rgba(0,0,0,0.5);
+}
+
+/* the buttons on the navbar */
+#navbar .item {
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+}
+
+#navbar .item:not(:last-child){
+  -webkit-box-shadow: 10px 0 15px -4px rgba(7, 128, 8, 0.45);
+  -moz-box-shadow: 10px 0 15px -4px rgba(7, 128, 8, 0.45);
+  box-shadow: 10px 0 15px -4px rgba(7, 128, 8, 0.45);
+}
+
+/*navabar button labels*/
+#navbar .item label{
+  font-weight: bold;
+}
+
+#navbar .item:hover{
+  background: #17B63F;
+}
+
+/* images + text on navbar buttons */
+#navbar .item *{
+  color: #074418;
+}
+
+/* marks the current page on the navbar */
+.navbar-currentpage{
+  background: #0FB920;
+  border-bottom: 4px solid #125800;
+}
+
+/* content portion of webpages (under navbar/carousel) */
+#content{
+  text-align: center;
+  background: #75417A;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* adds right-hand divider to columns */
+.divider {
+  border-right: 2px solid whitesmoke;
+  margin-right:-0.625em; /* size of gutter */
+  padding-right:0.625em; /* size of gutter */
+}
+
+/* styles for the copyright clause at the bottom of every webpage */
+#copyright {
+  padding-bottom: 0.45em;
+  margin-bottom: 0.22em;
+  font-size: 1.3em;
+  color: #64FEA1;
+  font-weight: bold;
+}
+
+/* changes highlighted or emphasized text to whitesmoke */
+em {
+  color: whitesmoke;
+}
+
+/* changes bolded text to green */
+strong {
+  color: #64FEA1;
+}
+
+/******************************************
+*************| MEDIA QUERIES |*************
+******************************************/
+/****************
+Tiny Screens
+****************/
+@media only screen and (max-width: 20em) { /* max-width 320px, mobile-only styles*/
+  #header-padding {
+    font-size: 45%;
+  }
+
+  h1{
+    font-size: 1.35em;
+  }
+
+  h3{
+    font-size: 1.0125em;
+  }
+
+  #navbar .item label{
+    display: none;
+  }
+
+  #navbar .item i{
+    display: block;
+    margin-left: -100%;
+    margin-right: -100%;
+    padding-bottom: 0.235em;
+  }
+
+  .divider {
+    border: none;
+  }
+
+  .small-hide{
+    display: none;
+  }
+
+  .main-page{
+    margin: 0;
+  }
+
+  body{
+    background-color: #3E2940; !important
+  }
+
+  #casey *{
+    max-height: 12em;
+  }
+
+  .justify{
+    text-align: center
+  }
+}
+
+/****************
+Small Screens
+****************/
+@media only screen and (min-width: 20.063em) and (max-width: 40em) { /* min-width 321px and max-width 640px*/
+  #header-padding {
+    font-size: 35%;
+  }
+
+  h1{
+    font-size: 2em;
+  }
+
+  h3{
+    font-size: 1.5em;
+  }
+
+  #navbar .item label{
+    display: none;
+  }
+
+  #navbar .item i{
+    padding-bottom: 0.235em;
+  }
+
+  #owl br{
+    display: none;
+  }
+
+  .divider {
+    border: none;
+  }
+
+  .small-hide{
+    display: none;
+  }
+
+  .main-page{
+    margin: 0;
+  }
+
+  body{
+    background-color: #3E2940; !important
+  }
+}
+
+/****************
+Medium Screens
+****************/
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { /* min-width 641px and max-width 1024px*/
+  #content p{
+    font-size: 1.2em;
+  }
+  .main-page{
+    margin: 0;
+  }
+
+  body{
+    background-color: #3E2940; !important
+  }
+  .medium-hide{
+    display: none;
+  }
+  .justify{
+    text-align: center
+  }
+}
+/****************
+Large Screens
+****************/
+@media only screen and (min-width: 64.063em) and (max-width: 90em) { /* min-width 1025px and max-width 1440px*/
+  #content p{
+    font-size: 1.25em;
+  }
+  .main-page{
+    -webkit-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    -moz-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+  body{
+    background-image:url(../img/hexane/hexane-background.png);
+    background-position: center;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+  }
+  .large-hide{
+    display: none;
+  }
+}
+/****************
+X-Large Screens
+****************/
+@media only screen and (min-width: 90.063em) and (max-width: 120em) { /* min-width 1441px and max-width 1920px*/
+  #content p{
+    font-size: 1.25em;
+  }
+  .main-page{
+    -webkit-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    -moz-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+  body{
+    background-image:url(../img/hexane/hexane-background.png);
+    background-position: center;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+  }
+  .large-hide{
+    display: none;
+  }
+}
+/****************
+HD Screens
+****************/
+@media only screen and (min-width: 120.063em) { /* min-width 1921px */
+  #content p{
+    font-size: 1.25em;
+  }
+  .main-page{
+    -webkit-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    -moz-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+  body{
+    background-image:url(../img/hexane/hexane-background.png);
+    background-position: center;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+  }
+}
