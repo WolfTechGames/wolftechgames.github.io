@@ -20,7 +20,7 @@
 /* default settings for elements, */
 /* also contains background image */
 body {
-  background-color: #3E2940;
+  background-color: #4cb1e8;
   color: whitesmoke;
   padding: 0;
   margin: 0;
@@ -46,10 +46,7 @@ h1 {
   font-weight: 900;
   text-align: center;
   margin-bottom: 0;
-  text-shadow: 0 1px 0 #25F559,
-               0 2px 0 #20D64E,
-               0 3px 0 #13C12A,
-               0 4px 0 #249A10,
+  text-shadow: 0 2px 0 #25F559,
                0 6px 1px rgba(0,0,0,.1),
                0 0 5px rgba(0,0,0,.1),
                0 1px 3px rgba(0,0,0,.3),
@@ -142,9 +139,13 @@ a:hover {
 /* content portion of webpages (under navbar/carousel) */
 #content{
   text-align: center;
-  background: #75417A;
+  background: #14577c;
   margin-bottom: 0;
   padding-bottom: 0;
+}
+
+#gameplay-home{
+  background: #07416A;
 }
 
 /* adds right-hand divider to columns */
@@ -216,7 +217,7 @@ Tiny Screens
   }
 
   body{
-    background-color: #3E2940; !important
+    background-color: #4cb1e8; !important
   }
 
   #casey *{
@@ -269,7 +270,7 @@ Small Screens
   }
 
   body{
-    background-color: #3E2940; !important
+    background-color: #4cb1e8; !important
   }
 }
 
@@ -285,7 +286,7 @@ Medium Screens
   }
 
   body{
-    background-color: #3E2940; !important
+    background-color: #4cb1e8; !important
   }
   .medium-hide{
     display: none;
@@ -307,7 +308,7 @@ Large Screens
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   }
   body{
-    background-image:url(../img/hexane/hexane-background.png);
+    background-image:url(../img/slymes/slymes-background.png);
     background-position: center;
     background-repeat: repeat-x;
     background-attachment: fixed;
@@ -329,7 +330,7 @@ X-Large Screens
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   }
   body{
-    background-image:url(../img/hexane/hexane-background.png);
+    background-image:url(../img/slymes/slymes-background.png);
     background-position: center;
     background-repeat: repeat-x;
     background-attachment: fixed;
@@ -351,7 +352,7 @@ HD Screens
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   }
   body{
-    background-image:url(../img/hexane/hexane-background.png);
+    background-image:url(../img/slymes/slymes-background.png);
     background-position: center;
     background-repeat: repeat-x;
     background-attachment: fixed;
