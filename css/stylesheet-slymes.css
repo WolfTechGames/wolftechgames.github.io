@@ -148,6 +148,14 @@ a:hover {
   background: #07416A;
 }
 
+#signups{
+  background: #07416A;
+}
+
+hr{
+    border: solid #05294B;
+}
+
 /* adds right-hand divider to columns */
 .divider {
   border-right: 2px solid whitesmoke;
@@ -162,6 +170,10 @@ a:hover {
   font-size: 1.3em;
   color: #64FEA1;
   font-weight: bold;
+}
+
+.header-light{
+  font-weight: 400;
 }
 
 /* changes highlighted or emphasized text to whitesmoke */
