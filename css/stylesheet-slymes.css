@@ -89,6 +89,10 @@ a:hover {
   width: 100%;
 }
 
+#home-punklord{
+  max-height: 19em;
+}
+
 /* displays the logo */
 #logo{
   display: block;
