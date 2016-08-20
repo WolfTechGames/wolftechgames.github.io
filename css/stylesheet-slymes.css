@@ -325,9 +325,13 @@ Large Screens
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   }
   body{
-    background-image:url(../img/slymes/slymes-background.png);
+    background: url(../img/slymes/slymes-background.jpg) center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     background-position: center;
-    background-repeat: repeat-x;
+    background-repeat: no-repeat;
     background-attachment: fixed;
   }
   .large-hide{
@@ -347,10 +351,14 @@ X-Large Screens
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   }
   body{
-    background-image:url(../img/slymes/slymes-background.png);
+    background: url(../img/slymes/slymes-background.jpg) center center fixed;
     background-position: center;
-    background-repeat: repeat-x;
+    background-repeat: no-repeat;
     background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
   .large-hide{
     display: none;
@@ -369,9 +377,13 @@ HD Screens
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   }
   body{
-    background-image:url(../img/slymes/slymes-background.png);
+    background: url(../img/slymes/slymes-background.jpg) center center fixed;
     background-position: center;
-    background-repeat: repeat-x;
+    background-repeat: no-repeat;
     background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 }
