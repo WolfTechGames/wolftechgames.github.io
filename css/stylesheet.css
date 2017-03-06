@@ -220,9 +220,14 @@ em {
 
 /**DEV BIOS page only**/
 .bio-portrait{
-    border-radius: 50%;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
     width: 12.5em;
     height: 12.5em;
+}
+
+hr.style1{
+	border-top: 3px solid #ffffff;
 }
 
 /**CONTACT page only**/
