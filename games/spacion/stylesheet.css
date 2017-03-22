@@ -1,0 +1,76 @@
+body
+{
+    background: linear-gradient(rgba(50,163,161,0.75), rgba(13,112,110,0.75)),
+    url("img/stock/StockSnap_DNGGMGAAP0.jpg") no-repeat center center fixed;
+    background-blend-mode: multiply;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.centerBody
+{
+    text-align: center;
+}
+
+#maincontainer {
+    
+}
+
+.maincontainerborder {
+    border-bottom: .5em solid rgb(196, 140, 0);
+    margin-left: 1em;
+    margin-right: 1em;
+
+    padding-bottom: 5em;
+
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+#socialmediacontainer {
+    padding-top: 5em;
+    padding-bottom: 2em;
+    text-align: center;
+}
+
+.socialmedia {
+    color: orange
+}
+
+/* Navbar Starts Here */
+.navBar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: (0,0,0,0);
+}
+
+.navBar li {
+    display: inline;
+}
+
+.navBar a {
+    display: inline-block;
+    text-align: center;
+    padding: 1em 2em;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1em;
+}
+
+/* Hover Color */
+li a:hover {
+    color: rgb(247, 247, 0);
+}
+
+/* Active Color */
+.active {
+    color: rgb(196, 140, 0);
+}
+
+.deactive {
+    color: rgb(255, 194, 40);
+}
+/* Navbar Ends Here */
