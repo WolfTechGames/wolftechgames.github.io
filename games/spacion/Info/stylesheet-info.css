@@ -24,6 +24,14 @@ hr {
     padding: 0;
 }
 
+img {
+	width: 80%;
+}
+
+.do50 {
+	width: 49%;
+}
+
 /*  SECTIONS  */
 .section {
 	clear: both;
@@ -50,11 +58,9 @@ hr {
     float: left;
 }
 .span_2_of_2 {
-	width: 50%;
-    float: right;
+	float: right;
 }
 .span_1_of_2 {
-	width: 49.2%;
 }
 
 
